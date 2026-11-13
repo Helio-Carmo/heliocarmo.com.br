@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://heliocarmo.com.br/sitemap.xml
+Sitemap: https://helio-carmo.github.io/heliocarmo.com.br/sitemap.xml
