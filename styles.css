@@ -346,7 +346,7 @@ ul, ol { list-style: none; }
   .nav__menu .btn { margin: 0 0 0 8px; }
 
   .hero__grid { grid-template-columns: 1.1fr 0.9fr; }
-  .projects { grid-template-columns: repeat(3, 1fr); }
+  .projects { grid-template-columns: repeat(2, 1fr); gap: 24px; }
   .cv { grid-template-columns: 1.6fr 1fr; gap: 48px; }
   .contact { grid-template-columns: 1fr 1.1fr; gap: 64px; align-items: start; }
   .section { padding: 120px 0; }
@@ -382,3 +382,12 @@ ul, ol { list-style: none; }
 }
 .project__shot img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; object-position: top; transition: transform .5s ease; }
 .project:hover .project__shot img { transform: scale(1.04); }
+
+/* Card sem print público (PontoSync): ilustração no lugar da imagem */
+.project__shot--art { aspect-ratio: 16 / 9; display: grid; place-items: center; padding-top: 22px;
+  background: radial-gradient(circle at 30% 40%, rgba(34,211,238,.18), transparent 60%),
+              radial-gradient(circle at 75% 70%, rgba(139,92,246,.25), transparent 60%), var(--surface-2); }
+.art-clock { display: grid; justify-items: center; gap: 12px; }
+.art-clock svg { width: 72px; height: 72px; fill: none; stroke: var(--cyan); stroke-width: 1.4; stroke-linecap: round; }
+.art-clock span { font-size: 0.9rem; padding: 6px 14px; border-radius: 999px; background: rgba(163,230,53,.12); color: var(--lime); border: 1px solid rgba(163,230,53,.3); }
+.project__note { margin-top: auto; font-size: 0.75rem; color: var(--text-muted); padding-top: 8px; }
