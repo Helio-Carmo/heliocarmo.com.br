@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hélio Carmo · Desenvolvedor de Sistemas, Automação e Dados</title>
+  <meta name="description" content="Hélio Henrique do Carmo: desenvolvedor de sistemas que une operações logísticas e tecnologia. Automação com Python, processamento de documentos com IA, Power BI e aplicações web.">
+  <meta name="author" content="Hélio Henrique do Carmo">
+  <link rel="canonical" href="https://heliocarmo.com.br/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://heliocarmo.com.br/">
+  <meta property="og:title" content="Hélio Carmo · Automação, Dados e Desenvolvimento">
+  <meta property="og:description" content="Transformo dores operacionais em soluções tecnológicas: automação, IA aplicada a documentos, dashboards e aplicações web.">
+  <meta property="og:image" content="https://heliocarmo.com.br/assets/og-image.png">
+  <meta name="theme-color" content="#070b16">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ============ CABEÇALHO ============ -->
+  <header class="header" id="topo">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a href="#inicio" class="logo" aria-label="Hélio Carmo, voltar ao início">
+        <span class="logo__mark">HC</span><span class="logo__text">heliocarmo<span class="accent">.com.br</span></span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="menu">
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#competencias">Competências</a></li>
+        <li><a href="#curriculo">Currículo</a></li>
+        <li><a href="#contato" class="btn btn--sm btn--primary">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- ============ INÍCIO / SOBRE ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__text reveal">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Disponível para projetos e oportunidades</p>
+          <h1>Hélio Carmo<br><span class="gradient-text">Logística + Tecnologia</span></h1>
+          <p class="hero__role mono" aria-live="polite">
+            &gt; <span id="typed">automação de processos</span><span class="caret" aria-hidden="true">_</span>
+          </p>
+          <p class="hero__lead">
+            Sou desenvolvedor de sistemas com mais de 8 anos em operações logísticas.
+            Transformo tarefas manuais e repetitivas em automações, dashboards e aplicações web,
+            com a mentalidade Kaizen de melhoria contínua.
+          </p>
+          <div class="hero__cta">
+            <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+            <a href="#contato" class="btn btn--ghost">Fale comigo</a>
+          </div>
+          <ul class="hero__facts">
+            <li><strong>8+ anos</strong><span>em operações logísticas</span></li>
+            <li><strong>ADS</strong><span>UniAnchieta, 2026</span></li>
+            <li><strong>Pós em IA</strong><span>Anhanguera, em curso</span></li>
+          </ul>
+        </div>
+
+        <!-- Cartão "terminal": reforça a identidade técnica -->
+        <div class="terminal reveal" aria-hidden="true">
+          <div class="terminal__bar"><i></i><i></i><i></i><span>kaizen.py</span></div>
+<pre class="terminal__body"><code><span class="c-k">from</span> operacao <span class="c-k">import</span> processo_manual
+<span class="c-k">from</span> helio <span class="c-k">import</span> python, ia, dados
+
+<span class="c-k">def</span> <span class="c-f">melhorar</span>(processo):
+    dor = processo.<span class="c-f">mapear</span>()
+    solucao = python.<span class="c-f">automatizar</span>(dor)
+    solucao += ia.<span class="c-f">ler_documentos</span>()
+    <span class="c-k">return</span> dados.<span class="c-f">dashboard</span>(solucao)
+
+<span class="c-c"># ciclo de melhoria contínua</span>
+<span class="c-k">while</span> <span class="c-n">True</span>:
+    <span class="c-f">melhorar</span>(processo_manual)</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJETOS ============ -->
+    <section class="section" id="projetos">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="kicker mono">01 / projetos</p>
+          <h2>O que eu construí</h2>
+          <p class="section__sub">Produtos que criei do zero e que estão no ar.</p>
+        </header>
+
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project__top">
+              <span class="project__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2l8.66 5v10L12 22l-8.66-5V7z"/><path d="M12 8v8M8 10l8 4M16 10l-8 4"/></svg>
+              </span>
+              <span class="badge">App web · no ar</span>
+            </div>
+            <h3>Abelhando</h3>
+            <dl class="case">
+              <dt>Problema</dt><dd>Criadores de abelhas nativas controlam caixas, iscas e revisões em cadernos e planilhas soltas.</dd>
+              <dt>Solução</dt><dd>Caderno de campo digital: cadastro de caixas e iscas, QR Code em cada caixa com histórico e fotos, mapa para revisões pelo celular e mensagens entre criadores.</dd>
+              <dt>Resultado</dt><dd>Plataforma gratuita no ar, com catálogo de 47 espécies e sem precisar instalar app.</dd>
+            </dl>
+            <ul class="stack"><li>Next.js</li><li>TypeScript</li><li>Supabase</li><li>Leaflet</li><li>Vercel</li></ul>
+            <a class="project__link" href="https://abelhando.online" target="_blank" rel="noopener">abelhando.online <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__top">
+              <span class="project__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 9h10M7 13h6"/><circle cx="17" cy="18" r="3"/></svg>
+              </span>
+              <span class="badge">SaaS · no ar</span>
+            </div>
+            <h3>TreinaLink</h3>
+            <dl class="case">
+              <dt>Problema</dt><dd>Empresas e instrutores aplicam treinamentos e controlam certificados à mão.</dd>
+              <dt>Solução</dt><dd>Treinamentos com PDFs em slides, vídeos e quiz, enviados por link único sem login. O certificado sai automático após a aprovação.</dd>
+              <dt>Resultado</dt><dd>SaaS com planos pagos, relatórios em CSV e controle de validade dos certificados.</dd>
+            </dl>
+            <ul class="stack"><li>Stripe</li><li>Web app</li><li>Google Ads</li></ul>
+            <a class="project__link" href="https://treinalink.com" target="_blank" rel="noopener">treinalink.com <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__top">
+              <span class="project__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="11" rx="3"/><path d="M5 10a7 7 0 0014 0M12 17v5M8 22h8"/></svg>
+              </span>
+              <span class="badge">Plataforma · no ar</span>
+            </div>
+            <h3>CantaJunto</h3>
+            <dl class="case">
+              <dt>Problema</dt><dd>Karaokê em festa precisa de alguém controlando a fila e escolhendo as músicas.</dd>
+              <dt>Solução</dt><dd>Os convidados pedem músicas pelo celular lendo um QR Code na TV, e a fila toca sozinha. Tem modo batalha com ranking, reações e ajuste de tom.</dd>
+              <dt>Resultado</dt><dd>Catálogo com mais de 23 mil músicas, funcionando no navegador, na Smart TV ou no computador.</dd>
+            </dl>
+            <ul class="stack"><li>PHP</li><li>JavaScript</li><li>SQL</li></ul>
+            <a class="project__link" href="https://cantajunto.online" target="_blank" rel="noopener">cantajunto.online <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+
+        <!-- Projetos de apoio: mostram curiosidade e variedade -->
+        <div class="side-projects reveal">
+          <h3 class="mono">// também construí</h3>
+          <ul>
+            <li><strong>Sistemas sob medida</strong><span>Soluções personalizadas para a necessidade de cada cliente</span></li>
+            <li><strong>Calculadoras de corte de madeira</strong><span>Ferramentas web no GitHub Pages</span></li>
+            <li><strong>Jogos retrô e RPG</strong><span>Feitos com Phaser.js</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="section section--alt" id="servicos">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="kicker mono">02 / serviços</p>
+          <h2>Como posso ajudar</h2>
+          <p class="section__sub">Poucos serviços, bem definidos.</p>
+        </header>
+        <div class="services">
+          <article class="service reveal">
+            <span class="service__num mono">01</span>
+            <h3>Automação de processos e RPA</h3>
+            <p>Robôs em Python que preenchem planilhas, navegam em sistemas web e operam aplicações desktop no seu lugar.</p>
+            <ul class="stack"><li>Python</li><li>Selenium</li><li>Playwright</li></ul>
+          </article>
+          <article class="service reveal">
+            <span class="service__num mono">02</span>
+            <h3>Documentos com IA</h3>
+            <p>Leitura, extração e consolidação de dados de documentos com OCR e APIs de IA, direto para planilhas ou banco de dados.</p>
+            <ul class="stack"><li>OCR</li><li>Gemini</li><li>Google Sheets</li></ul>
+          </article>
+          <article class="service reveal">
+            <span class="service__num mono">03</span>
+            <h3>Dashboards em Power BI</h3>
+            <p>Indicadores claros para decidir mais rápido: modelagem, DAX e Power Query a partir das suas fontes de dados.</p>
+            <ul class="stack"><li>Power BI</li><li>DAX</li><li>SQL</li></ul>
+          </article>
+          <article class="service reveal">
+            <span class="service__num mono">04</span>
+            <h3>Aplicações web sob medida</h3>
+            <p>Sistemas leves e rápidos para controlar o que hoje está espalhado em planilhas e mensagens.</p>
+            <ul class="stack"><li>Next.js</li><li>Supabase</li><li>Vercel</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMPETÊNCIAS ============ -->
+    <section class="section" id="competencias">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="kicker mono">03 / competências</p>
+          <h2>Ferramentas que uso</h2>
+          <p class="section__sub">Cada tecnologia aqui aparece em algum projeto ou na rotina de trabalho.</p>
+        </header>
+        <div class="skills">
+          <div class="skill reveal">
+            <h3>Linguagens</h3>
+            <ul class="chips">
+              <li>Python</li><li>Pandas</li><li>Flask</li><li>FastAPI</li><li>Tkinter</li>
+              <li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Node.js</li><li>Phaser.js</li>
+              <li>PHP</li><li>SQL</li><li>VBA</li><li>Apps Script</li>
+            </ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Automação e IA</h3>
+            <ul class="chips">
+              <li>Selenium</li><li>Playwright</li><li>PyAutoGUI</li><li>OCR</li><li>Gemini API</li>
+              <li>ChatGPT</li><li>Claude</li><li>GitHub Copilot</li>
+            </ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Dados e BI</h3>
+            <ul class="chips">
+              <li>Power BI</li><li>DAX</li><li>Power Query</li><li>Excel avançado</li>
+              <li>PostgreSQL</li><li>MySQL</li><li>SQLite</li><li>Supabase</li>
+            </ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Infra e integrações</h3>
+            <ul class="chips">
+              <li>Docker</li><li>Vercel</li><li>Hostinger Cloud</li><li>REST APIs</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="soft reveal">
+          <div><strong>Kaizen</strong><span>Melhoria contínua aplicada a processos reais de armazém e transporte.</span></div>
+          <div><strong>Processos</strong><span>Mapeamento, padronização e apoio a auditorias operacionais.</span></div>
+          <div><strong>Negócio</strong><span>Trabalho com Operações, Excelência Operacional e tecnologia ao mesmo tempo.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CURRÍCULO ============ -->
+    <section class="section section--alt" id="curriculo">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="kicker mono">04 / currículo</p>
+          <h2>Trajetória</h2>
+        </header>
+
+        <div class="cv">
+          <ol class="timeline">
+            <li class="reveal">
+              <span class="timeline__date mono">abr/2026 · atual</span>
+              <h3>Analista de Excelência Operacional Jr</h3>
+              <p class="timeline__org">CEVA Logistics</p>
+              <p>Indicadores operacionais, padronização de processos, melhoria contínua e automações para a operação.</p>
+            </li>
+            <li class="reveal">
+              <span class="timeline__date mono">mai/2025 · ago/2025</span>
+              <h3>Auxiliar Administrativo de Logística</h3>
+              <p class="timeline__org">Diniz Comércio Atacadista</p>
+            </li>
+            <li class="reveal">
+              <span class="timeline__date mono">mai/2024 · jan/2025</span>
+              <h3>Analista de Qualidade</h3>
+              <p class="timeline__org">JSL S.A.</p>
+              <p>KPIs de transporte, relatórios em Excel e Power BI e scripts para automatizar a coleta de dados.</p>
+            </li>
+            <li class="reveal">
+              <span class="timeline__date mono">fev/2022 · dez/2023</span>
+              <h3>Técnico de Informática</h3>
+              <p class="timeline__org">Dexian do Brasil</p>
+              <p>Suporte N1/N2, redes, Active Directory e automações em PowerShell.</p>
+            </li>
+            <li class="reveal">
+              <span class="timeline__date mono">fev/2017 · jul/2021</span>
+              <h3>Analista de Planejamento</h3>
+              <p class="timeline__org">Kuehne+Nagel</p>
+            </li>
+            <li class="reveal">
+              <span class="timeline__date mono">jan/2014 · jun/2016</span>
+              <h3>Analista de Projetos e de Planejamento</h3>
+              <p class="timeline__org">DHL Logistics</p>
+              <p>Ferramentas para melhoria de processos e projetos de 5S e TPM.</p>
+            </li>
+          </ol>
+
+          <aside class="cv__side reveal">
+            <h3>Formação</h3>
+            <ul class="edu">
+              <li><strong>Pós-graduação em IA para Desenvolvedores</strong><span>Anhanguera · desde set/2026</span></li>
+              <li><strong>Análise e Desenvolvimento de Sistemas</strong><span>UniAnchieta · 2026</span></li>
+              <li><strong>Power BI Intensivo</strong><span>Hashtag Treinamentos</span></li>
+            </ul>
+            <h3>Idiomas</h3>
+            <ul class="edu">
+              <li><strong>Português</strong><span>Nativo</span></li>
+              <li><strong>Inglês</strong><span>Em desenvolvimento, leitura técnica fluente</span></li>
+            </ul>
+            <!-- O PDF publicado NÃO deve conter endereço nem telefone -->
+            <a href="assets/curriculo-helio-carmo.pdf" class="btn btn--primary btn--block" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg>
+              Baixar currículo (PDF)
+            </a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="section" id="contato">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <p class="kicker mono">05 / contato</p>
+          <h2>Vamos conversar?</h2>
+          <p>Tem um processo manual que toma tempo da sua equipe ou uma vaga em que eu me encaixo? Me mande uma mensagem.</p>
+          <ul class="contact__links">
+            <li>
+              <a href="mailto:contato@heliocarmo.com.br">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+                contato@heliocarmo.com.br
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/helio-henrique-carmo-84966495/" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7"/></svg>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Helio-Carmo" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5m12 5v-3.5a3 3 0 00-.9-2.3c3-.3 6-1.5 6-6.5a5 5 0 00-1.4-3.5 4.6 4.6 0 00-.1-3.5s-1.1-.3-3.6 1.4a12.4 12.4 0 00-6.4 0C6.1 1.6 5 1.9 5 1.9a4.6 4.6 0 00-.1 3.5A5 5 0 003.5 9c0 5 3 6.2 6 6.5a3 3 0 00-.9 2.3V22"/></svg>
+                GitHub
+              </a>
+            </li>
+          </ul>
+          <p class="muted">Louveira / Jundiaí, SP · atendo remoto</p>
+        </div>
+
+        <!-- Formulário via Web3Forms (troque a access_key pela sua, gratuita em web3forms.com) -->
+        <form class="form reveal" action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+          <input type="hidden" name="access_key" value="SUA_ACCESS_KEY_AQUI">
+          <input type="hidden" name="subject" value="Novo contato pelo site heliocarmo.com.br">
+          <!-- Honeypot anti-spam: invisível para pessoas, bots preenchem -->
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input id="nome" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto">
+              <option>Projeto / freelance</option>
+              <option>Oportunidade de emprego</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Enviar mensagem</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Hélio Henrique do Carmo</p>
+      <a href="#topo" class="mono">voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

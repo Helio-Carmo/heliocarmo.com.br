@@ -1,0 +1,6 @@
+# Currículo original tem endereço e telefone: nunca publicar
+*.docx
+
+# Notas internas do projeto (contêm detalhes confidenciais de trabalho)
+CLAUDE.md
+.claude/
